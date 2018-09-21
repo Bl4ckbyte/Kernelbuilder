@@ -7,18 +7,16 @@
 
 - Usage: 
 
-`./build.sh -h : show Help.` 
+`./build.sh -h` : show Help.
  
-`./build.sh -a : execute the complete script.` 
+`./build.sh -a` : execute the complete script.
 
 
 -  for debugging and/or eliminating build errors:  
+  `./build.sh -b` : only clean the kernel source & outputfolder, then build.
   
 
-`./build.sh -b : only clean the kernel source & outputfolder, then build. ()`
-  
-
-`./build.sh -c : only clean output directory, then build.` 
+`./build.sh -c` : only clean output directory, then build.
 
 
 
