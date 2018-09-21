@@ -13,7 +13,8 @@
 
 
 -  for debugging and/or eliminating build errors:  
-  `./build.sh -b` : only clean the kernel source & outputfolder, then build.
+
+`./build.sh -b` : only clean the kernel source & outputfolder, then build.
   
 
 `./build.sh -c` : only clean output directory, then build.
