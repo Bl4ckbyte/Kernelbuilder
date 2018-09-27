@@ -1,5 +1,5 @@
-# xNN's Kernelbuilder
-> Android kernel build script written in Bash
+# Kernelbuilder
+> Kernel build script written in Bash
 
 
 - - -
