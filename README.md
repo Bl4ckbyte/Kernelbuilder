@@ -41,5 +41,5 @@
 - - -
 
 To-Do:
-- [ ] add support for kernels not crosscompiled
+- [ ] add support for x86
 
