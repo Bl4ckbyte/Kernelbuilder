@@ -59,7 +59,7 @@ CPU_CLOCK=$(echo -e "$(cat /proc/cpuinfo | grep "cpu MHz" | cut -c 12-15)")
 
 KERNEL_DIR="/path/to/kernel/source"
 OUTPUT_DIR="$KERNEL_DIR/Out"
-ARCHITECTURE=""  # (e.g.: "arch" "arch64") 
+ARCHITECTURE=" "  # (e.g.: "arm" "amrch64")
 TOOLCHAIN="/path/to/toolchain"  # (e.g.: "/opt/toolchains/linaro-aarch64-linux-gnu/bin/aarch64-linux-gnu-") 
 KERNEL_IMAGE=" "  # (e.g.: "Image.gz-dtb", "zImage", "zImage-dtb")
 DEFCONFIG=" "  # (e.g.: "msm9884_defconfig")
